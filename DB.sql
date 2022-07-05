@@ -1,8 +1,16 @@
+DROP table mensaje;
+DROP table documentacion;
+DROP table archivo;
+DROP table empleado;
+DROP table admin;
+DROP table dataEmpresa;
+DROP table empresa;
+
 CREATE TABLE "empresa" ( 
   "id_empresa" serial PRIMARY KEY,
   "nombre" varchar,
   "email" varchar,
-  "passport" varchar
+  "password" varchar
 );
 
 CREATE TABLE "dataEmpresa" (
